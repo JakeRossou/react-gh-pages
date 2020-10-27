@@ -1,0 +1,59 @@
+.servicesPage {
+  background: url("../background.png");
+}
+
+.serviceOverview {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  padding: 10% 10%;
+}
+
+.processTitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+  padding-top: 120px;
+}
+
+.serviceOverview div.services {
+  width: 20%;
+}
+
+.serviceOverview div.services img {
+  width: 100%;
+}
+
+.serviceOverview div.services h4 {
+  border: solid 2.5px;
+  margin: 15px 15px;
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+}
+
+.serviceOverview div.services p {
+  font-size: 12px;
+  margin: 15px 15px;
+  color: white;
+}
+
+.processTitle h1 {
+  color: white;
+  letter-spacing: 3px;
+}
+
+@media all and (max-width: 600px) {
+  .serviceOverview {
+    display: block;
+  }
+  .serviceOverview div.services {
+    width: 100%;
+    margin: 5%;
+  }
+  .servicesPage {
+    background: url("../backgroundMobile.png");
+  }
+}

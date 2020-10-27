@@ -1,0 +1,83 @@
+/* Introduction Section - Basic Styling ------------------------------------------*/
+
+.titlePage {
+  background: url(../BackgroundMarbleousDesign_TinkerbellAstronautMultipleColorsV2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -100px;
+  z-index: -1000;
+}
+
+.titlePageText {
+  font-family: "Calibri", Arial, sans-serif;
+  color: white;
+  position: relative;
+  left: 10%;
+  width: 33%;
+  padding-left: 15px;
+  border-left: solid 3px;
+  border-color: rgb(84, 217, 202);
+}
+
+span.lineThrough {
+  color: rgb(255, 39, 100);
+  text-decoration: line-through;
+}
+
+.titlePage h1 {
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.titlePage h3 {
+  font-size: 20px;
+  color: rgb(84, 217, 202);
+  position: relative;
+  top: 10px;
+}
+
+.titlePage p {
+  font-size: 16px;
+  color: white;
+  letter-spacing: 3px;
+  line-height: normal;
+}
+
+.textField {
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+  top: -100px;
+}
+
+.textField p {
+  font-size: 20px;
+  line-height: 1.9;
+  letter-spacing: 4px;
+}
+
+.introButton {
+  border-radius: 0 !important;
+  padding: 10px 50px !important;
+  margin: 30px 10px !important;
+  letter-spacing: 4px !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+.whoWeAre {
+  background-color: white;
+}
+
+/* Desktop -------------------------------------------------------------------------------*/
+@media all and (min-width: 800px) {
+  .textField {
+    margin: 10% 22%;
+  }
+}
