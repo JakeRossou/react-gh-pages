@@ -1,7 +1,7 @@
 /* Introduction Section - Basic Styling ------------------------------------------*/
 
 .titlePage {
-  background: url(../BackgroundMarbleousDesign_TinkerbellAstronautMultipleColorsV2.png);
+  background: url(../backgroundMobile3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,8 @@
   color: white;
   position: relative;
   left: 10%;
-  width: 33%;
+  top: 160px;
+  width: 80%;
   padding-left: 15px;
   border-left: solid 3px;
   border-color: rgb(84, 217, 202);
@@ -54,6 +55,7 @@ span.lineThrough {
   padding-top: 100px;
   position: relative;
   top: -100px;
+  margin: 0px 30px;
 }
 
 .textField p {
@@ -75,9 +77,39 @@ span.lineThrough {
   background-color: white;
 }
 
+p.peterPanReference {
+  position: relative;
+  bottom: -100px;
+  font-size: 12px;
+}
+
 /* Desktop -------------------------------------------------------------------------------*/
-@media all and (min-width: 800px) {
+@media all and (min-width: 1000px) {
   .textField {
     margin: 10% 22%;
+  }
+  .titlePage {
+    background: url(../backgroundDesktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -100px;
+    z-index: -1000;
+  }
+
+  .titlePageText {
+    font-family: "Calibri", Arial, sans-serif;
+    color: white;
+    position: relative;
+    left: 10%;
+    top: 0px;
+    width: 33%;
+    padding-left: 15px;
+    border-left: solid 3px;
+    border-color: rgb(84, 217, 202);
   }
 }

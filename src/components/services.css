@@ -32,12 +32,14 @@
   padding: 7px;
   font-size: 16px;
   color: white;
+  letter-spacing: 3px;
 }
 
 .serviceOverview div.services p {
-  font-size: 12px;
+  font-size: 11px;
   margin: 15px 15px;
   color: white;
+  letter-spacing: 2px;
 }
 
 .processTitle h1 {
@@ -45,15 +47,15 @@
   letter-spacing: 3px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 1000px) {
   .serviceOverview {
     display: block;
   }
   .serviceOverview div.services {
     width: 100%;
-    margin: 5%;
+    margin: 5% 0%;
   }
   .servicesPage {
-    background: url("../backgroundMobile.png");
+    background: url("../backgroundLong.png");
   }
 }

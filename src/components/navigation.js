@@ -23,26 +23,26 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <ul className='menu'>
+      <ul className={this.state.active ? "menu active" : "menu"}>
         <li className='logo'>
           <a href='#'>
             <img className='brandLogo' src={logo}></img>
           </a>
         </li>
         <li className={this.state.active ? "item active" : "item"}>
-          <a href='#'>Services</a>
+          <a href='#AboutUs'>ABOUT US</a>
         </li>
         <li className={this.state.active ? "item active" : "item"}>
-          <a href='#'>Approach</a>
+          <a href='#OurApproach'>APPROACH</a>
         </li>
         <li className={this.state.active ? "item active" : "item"}>
-          <a href='#'>Marbles</a>
+          <a href='#OurFormats'>FORMATS</a>
         </li>
         <li className={this.state.active ? "item active" : "item"}>
-          <a href='#'>Pixies</a>
+          <a href='#'>MARBLES</a>
         </li>
         <li className={this.state.active ? "item active" : "item"}>
-          <a href='#'>Contact</a>
+          <a href='#'>CONTACT</a>
         </li>
         <li className='toggle' onClick={this.toggleNavBar}>
           <a href='#'>

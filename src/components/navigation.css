@@ -18,8 +18,11 @@ a:hover {
 }
 
 .menu {
-  background: rgba(0, 0, 0, 0);
   display: flex;
+}
+
+.menu.active {
+  background-color: rgb(26, 16, 46);
 }
 
 .menu .logo {
@@ -32,7 +35,7 @@ img.brandLogo {
 }
 
 .menu li {
-  font-size: 14px;
+  font-size: 12px;
   padding: 15px 5px;
   white-space: nowrap;
 }
@@ -65,7 +68,7 @@ img.brandLogo {
 }
 
 .toggleBars {
-  color: rgba(0, 0, 0, 1);
+  color: white;
 }
 
 .item.button {
@@ -80,7 +83,7 @@ img.brandLogo {
 
 .menu .item.active {
   display: block;
-  background: url(../background.png);
+  background: rgb(26, 16, 46);
 }
 
 .item.active a {
@@ -134,13 +137,13 @@ img.brandLogo {
 
   .item a:hover {
     color: white;
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: none;
   }
 
   .menu li {
     padding: 0px 20px;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .menu {

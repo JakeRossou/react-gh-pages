@@ -3,6 +3,8 @@ import "./formats.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { faCalendar, faUsers, faMapMarker, faBullseye } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import iterationCycleIcon from "../IterationCycleIcon.png";
+import arrow from "../Arrow.png";
 
 class Formats extends React.Component {
     constructor(props) {
@@ -12,22 +14,33 @@ class Formats extends React.Component {
   
     render() {
       return (
-        <div className='formatPage'>
+        <div className='formatPage' id="OurFormats">
+            <img className='iterationCycleIcon' src={iterationCycleIcon}></img>
+            <img className='arrow' src={arrow}></img>
             <div className="titleRow">
                 <h1>OUR FORMATS</h1>
             </div>
             <div className="cardRow">
                 <div className="formatCard redBorder">
-                    <p className="formatTitle redBackground">Hypothesis Workshop</p>
-                    <p className="formatGoal">Identify growth hypothesis<br/>and shape experiment</p>
-                    <p className="formatPointers"><FontAwesomeIcon icon={faCalendar} />&nbsp; 1-2 days</p>
-                    <p className="formatPointers"><FontAwesomeIcon icon={faUsers} />&nbsp; Guiding exisiting team</p>
-                    <p className="formatPointers"><FontAwesomeIcon icon={faMapMarker} />&nbsp; Virtually or at the company</p>
-                    <p className="formatPointers"><FontAwesomeIcon icon={faBullseye} />&nbsp; Experiment objectives, approach and endpoints</p>
+                    <div className="formatTitle redBackground"><p>HYPOTHESIS WORKSHOP</p></div>
+                    <div className="formatGoal"><p>Identify growth assumptions and design the ideal experiment to empirically test these assumptions</p></div>
+                    <div className="formatPointers"><p><FontAwesomeIcon icon={faCalendar} />&nbsp; 1-2 days</p></div>
+                    <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Experiment Set-Up</p></div>
                     <div className="learnMoreButtonRed">LEARN MORE</div>
                 </div>
                 <div className="formatCard greenBorder">
-                    <p>Iteration Cycle</p>
+                <div className="formatTitle greenBackground"><p>ITERATION CYCLE</p></div>
+                    <div className="formatGoal"><p>Co-develop the envisioned target concept and stress-test your crucial assumptions at breakneck speed</p></div>
+                    <div className="formatPointers"><p><FontAwesomeIcon icon={faCalendar} />&nbsp; 3-6 Weeks</p></div>
+                    <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Validated Concept</p></div>
+                    <div className="learnMoreButtonGreen">LEARN MORE</div>
+                </div>
+                <div className="formatCard blueBorder">
+                <div className="formatTitle blueBackground"><p>CONCEPT LAUNCH</p></div>
+                    <div className="formatGoal"><p>Guide your internal team and key partners to turn your concept into reality, making your future absolutely marbleous</p></div>
+                    <div className="formatPointers"><p><FontAwesomeIcon icon={faCalendar} />&nbsp; 3-6 Months</p></div>
+                    <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Marbleous Future</p></div>
+                    <div className="learnMoreButtonBlue">LEARN MORE</div>
                 </div>
             </div>
         </div>

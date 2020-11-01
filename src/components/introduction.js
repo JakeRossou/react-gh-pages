@@ -1,7 +1,6 @@
 import React from "react";
 import "./introduction.css";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import introImage from "../introImage.png";
 
 class Introduction extends React.Component {
   constructor(props) {
@@ -25,23 +24,17 @@ class Introduction extends React.Component {
           <div className="titlePageText">
             <h3>ITER</h3>
             <h1><span className="lineThrough">CRE</span>ATIVE CONCEPT AGENCY</h1>
-            <p>At marbleous, we will help your organization conceptualize its wildest dreams through an iterative build measure, learn approach. Making your company's future absolutely marbleous.</p>
+            <p>Helping large enterprises, SMEs and start-ups conceptualize & validate their wildest dreams through an iterative build measure, learn approach. Making their future absolutely marbleous.</p>
           </div>
         </div>
         <div className='whoWeAre'>
-          <div className='textField'>
-            <p>
-            We all have our marbles
-            Things we are good at, things we are 
-            passionate about, things that make us happy,
-            things that make us fly… </p>
-
-          <p>Through an iterative process 
-              we help organizations expand their set of marbles 
-              and realize their ambition to fly even higher</p> 
-            <Button className='introButton' variant='outline-dark'>
-              GET TO KNOW US
-            </Button>
+          <div className='textField' id="AboutUs">
+            <p>We all have our marbles.Things we are passionate about, things that make us happy,<br/>things that make us fly… </p>
+          <p>Through an iterative build - measure - learn approach, our team of entrepreneurial creatives is eager to help you leverage and expand your unique set of marbles and realize your ambition to fly even higher.*</p> 
+          <a href="mailto:gilles.rossou@marbleousconcepts.com"><Button className='introButton' variant='outline-dark'>
+            CONTACT US
+            </Button></a>
+            <p className="peterPanReference">* This reference only makes sense when your a fan of Peter Pan<br/>(Which we are)</p>
           </div>
         </div>
       </div>
