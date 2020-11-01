@@ -24,7 +24,7 @@ class Introduction extends React.Component {
           <div className="titlePageText">
             <h3>ITER</h3>
             <h1><span className="lineThrough">CRE</span>ATIVE CONCEPT AGENCY</h1>
-            <p>Helping large enterprises, SMEs and start-ups conceptualize & validate their wildest dreams through an iterative build measure, learn approach. Making their future absolutely marbleous.</p>
+            <p>Helping large enterprises, SMEs and start-ups conceptualize & validate their moonshots through an iterative build measure, learn approach. Making their future absolutely marbleous.</p>
           </div>
         </div>
         <div className='whoWeAre'>
@@ -34,7 +34,7 @@ class Introduction extends React.Component {
           <a href="mailto:gilles.rossou@marbleousconcepts.com"><Button className='introButton' variant='outline-dark'>
             CONTACT US
             </Button></a>
-            <p className="peterPanReference">* This reference only makes sense when your a fan of Peter Pan<br/>(Which we are)</p>
+            <p className="peterPanReference">* This reference only makes sense when you're a fan of Peter Pan<br/>(Which we are)</p>
           </div>
         </div>
       </div>

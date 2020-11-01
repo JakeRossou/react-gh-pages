@@ -15,29 +15,29 @@ class Formats extends React.Component {
     render() {
       return (
         <div className='formatPage' id="OurFormats">
-            <img className='iterationCycleIcon' src={iterationCycleIcon}></img>
-            <img className='arrow' src={arrow}></img>
             <div className="titleRow">
                 <h1>OUR FORMATS</h1>
             </div>
             <div className="cardRow">
                 <div className="formatCard redBorder">
                     <div className="formatTitle redBackground"><p>HYPOTHESIS WORKSHOP</p></div>
-                    <div className="formatGoal"><p>Identify growth assumptions and design the ideal experiment to empirically test these assumptions</p></div>
+                    <div className="formatGoal"><p>We help you identify growth assumptions and design the ideal experiment to empirically test these assumptions</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faCalendar} />&nbsp; 1-2 days</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Experiment Set-Up</p></div>
                     <div className="learnMoreButtonRed">LEARN MORE</div>
                 </div>
+                <img className='iterationCycleIcon' src={iterationCycleIcon}></img>
                 <div className="formatCard greenBorder">
                 <div className="formatTitle greenBackground"><p>ITERATION CYCLE</p></div>
-                    <div className="formatGoal"><p>Co-develop the envisioned target concept and stress-test your crucial assumptions at breakneck speed</p></div>
+                    <div className="formatGoal"><p>We co-develop the envisioned target concept and stress-test your growth assumptions at breakneck speed</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faCalendar} />&nbsp; 3-6 Weeks</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Validated Concept</p></div>
                     <div className="learnMoreButtonGreen">LEARN MORE</div>
                 </div>
+                <img className='arrow' src={arrow}></img>
                 <div className="formatCard blueBorder">
                 <div className="formatTitle blueBackground"><p>CONCEPT LAUNCH</p></div>
-                    <div className="formatGoal"><p>Guide your internal team and key partners to turn your concept into reality, making your future absolutely marbleous</p></div>
+                    <div className="formatGoal"><p>We guide your internal team and key partners throughout the entire concept launch, making your future absolutely marbleous</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faCalendar} />&nbsp; 3-6 Months</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Marbleous Future</p></div>
                     <div className="learnMoreButtonBlue">LEARN MORE</div>

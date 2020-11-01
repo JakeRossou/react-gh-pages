@@ -166,16 +166,16 @@ div.formatPointers p {
 
 .iterationCycleIcon {
   position: relative;
-  left: 34.2%;
-  top: 240px;
+  top: 20px;
   width: 20px;
+  height: 20px;
 }
 
 .arrow {
   position: relative;
-  left: 62.5%;
-  top: 240px;
+  top: 20px;
   width: 20px;
+  height: 20px;
 }
 
 @media all and (max-width: 1000px) {
@@ -218,14 +218,14 @@ div.formatPointers p {
   }
 
   .iterationCycleIcon {
-    left: 48%;
-    top: 505px;
     transform: rotate(90deg);
+    left: 48%;
+    top: -5%;
   }
   .arrow {
-    left: 45%;
-    top: 880px;
     transform: rotate(90deg);
+    left: 48%;
+    top: -5%;
   }
 }
 
@@ -236,12 +236,5 @@ div.formatPointers p {
   div.formatCard {
     min-width: 90%;
     margin: 50px auto;
-  }
-
-  .iterationCycleIcon {
-    top: 520px;
-  }
-  .arrow {
-    top: 915px;
   }
 }
