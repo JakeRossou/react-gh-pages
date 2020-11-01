@@ -34,7 +34,7 @@ class Introduction extends React.Component {
           <a href="mailto:gilles.rossou@marbleousconcepts.com"><Button className='introButton' variant='outline-dark'>
             CONTACT US
             </Button></a>
-            <p className="peterPanReference">* This reference only makes sense when you're a fan of Peter Pan<br/>(Which we are)</p>
+            <p className="peterPanReference">* This reference only makes sense when you're a fan of Peter Pan<br/>(which we are ;)</p>
           </div>
         </div>
       </div>

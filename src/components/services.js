@@ -27,7 +27,7 @@ class Services extends React.Component {
 </p></div>
           <div className="services"><img src={Learn}></img><h4 style={{borderColor: "rgb(32,53,95)"}}>LEARN</h4><p>Once the experiment is finalized, we analyze the test results and help organizations decide whether to persevere or to pivot.
 </p></div>
-          <div className="services"><img src={Repeat}></img><h4 style={{borderColor: "rgb(47,118,151)"}}>REPEAT</h4><p>Then, we cycle back to the beginning to take a deep dive into the same direction or to pivot into a new direction. These cycles are repeated until we’ve developed a new and unique marble that will make organizations fly even higher.
+          <div className="services"><img src={Repeat}></img><h4 style={{borderColor: "rgb(47,118,151)"}}>REPEAT</h4><p>Then, we cycle back to the beginning to take a deep dive into the same direction or to pivot into a new direction. These cycles are repeated until we’ve developed a new and unique marble that will make your organization fly even higher.
 </p></div>
         </div>
       </div>
