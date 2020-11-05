@@ -4,8 +4,8 @@ import { faCalendar, faBullseye } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import iterationCycleIcon from "../IterationCycleIcon.png";
 import arrow from "../Arrow.png";
-import workshop from "../Workshop.png";
-import iteration from "../Iterate.png";
+import workshop from "../HypothesisV2.png";
+import iteration from "../RepeatV2.png";
 import launch from "../Launch.png";
 
 class Formats extends React.Component {
