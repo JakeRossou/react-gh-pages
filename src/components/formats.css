@@ -1,23 +1,17 @@
 .redBackground {
-  background-color: rgb(255, 39, 100);
+  background-color: white;
 }
 
 .greenBackground {
-  background-color: rgb(84, 217, 202);
+  background-color: white;
 }
 
 .blueBackground {
-  background-color: rgb(47, 118, 151);
+  background-color: white;
 }
 
 .formatPage {
   display: block;
-}
-
-img.formats {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .formatPage .titleRow h1 {
@@ -31,7 +25,19 @@ div.titleRow {
   text-align: center;
   display: flex;
   justify-content: center;
-  margin: 80px 0px 20px 0px;
+  margin: 120px 0px 20px 0px;
+}
+
+div.descriptionRow {
+  display: flex;
+  justify-content: center;
+}
+
+div.descriptionRow p {
+  text-align: center;
+  letter-spacing: 3px;
+  width: 70%;
+  margin-top: 30px;
 }
 
 div.cardRow {
@@ -43,24 +49,24 @@ div.cardRow {
 }
 
 div.formatCard {
-  min-height: 100px;
   width: 30%;
   text-align: center;
+  background: url(../background.png);
 }
 
 .redBorder {
-  border: solid 3px rgb(255, 39, 100);
-  border-radius: 20px;
+  border: solid 0px black;
+  border-radius: 0px;
 }
 
 .greenBorder {
-  border: solid 3px rgb(84, 217, 202);
-  border-radius: 20px;
+  border: solid 0px black;
+  border-radius: 0px;
 }
 
 .blueBorder {
-  border: solid 3px rgb(47, 118, 151);
-  border-radius: 20px;
+  border: solid 0px black;
+  border-radius: 0px;
 }
 
 div.formatTitle {
@@ -68,29 +74,36 @@ div.formatTitle {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 0px 0px 0px 0px;
   margin: -2px;
 }
 
 div.formatTitle p {
   font-weight: 500;
   position: relative;
-  top: 8px;
+  top: 0px;
   color: white;
 }
 
+img.formatIcon {
+  width: 30%;
+  margin-top: 30px;
+}
+
 div.formatGoal {
-  height: 30%;
+  height: 60px;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 div.formatGoal p {
   font-weight: 400;
   font-size: 12px;
   letter-spacing: 3px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   margin-left: 15px;
   margin-right: 15px;
+  color: white;
 }
 
 div.formatPointers {
@@ -105,10 +118,11 @@ div.formatPointers p {
   width: 70%;
   margin: 0px auto;
   display: block;
+  color: white;
 }
 
 .learnMoreButtonRed {
-  border: 1px solid rgb(255, 39, 100);
+  border: 1px solid white;
   padding: 5px;
   width: 40%;
   margin-left: 30%;
@@ -119,15 +133,16 @@ div.formatPointers p {
   letter-spacing: 3px;
   position: relative;
   bottom: 20px;
-}
-
-.learnMoreButtonRed:hover {
-  background-color: rgb(255, 39, 100);
   color: white;
 }
 
+.learnMoreButtonRed:hover {
+  background-color: white;
+  color: black;
+}
+
 .learnMoreButtonGreen {
-  border: 1px solid rgb(84, 217, 202);
+  border: 1px solid white;
   padding: 5px;
   width: 40%;
   margin-left: 30%;
@@ -138,15 +153,16 @@ div.formatPointers p {
   letter-spacing: 3px;
   position: relative;
   bottom: 20px;
-}
-
-.learnMoreButtonGreen:hover {
-  background-color: rgb(84, 217, 202);
   color: white;
 }
 
+.learnMoreButtonGreen:hover {
+  background-color: white;
+  color: black;
+}
+
 .learnMoreButtonBlue {
-  border: 1px solid rgb(47, 118, 151);
+  border: 1px solid white;
   padding: 5px;
   width: 40%;
   margin-left: 30%;
@@ -157,11 +173,12 @@ div.formatPointers p {
   letter-spacing: 3px;
   position: relative;
   bottom: 20px;
+  color: white;
 }
 
 .learnMoreButtonBlue:hover {
-  background-color: rgb(47, 118, 151);
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .iterationCycleIcon {
@@ -206,15 +223,18 @@ div.formatPointers p {
 
   .learnMoreButtonRed {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
+    margin-bottom: 40px;
   }
   .learnMoreButtonGreen {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
+    margin-bottom: 40px;
   }
   .learnMoreButtonBlue {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
+    margin-bottom: 40px;
   }
 
   .iterationCycleIcon {
