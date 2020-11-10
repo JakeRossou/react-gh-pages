@@ -18,9 +18,9 @@ class Services extends React.Component {
       <div className='servicesPage' id='OurApproach'>
         <div className="processTitle"><h1>OUR APPROACH</h1></div>
         <div className="serviceOverview">
-          <div className="services"><img src={Hypothesis}></img><h4 style={{borderColor: "rgb(47,118,151)"}}>HYPOTHESIS</h4><p>Through creative workshops, we enable organizations to identify new hypothesis to grow existing brands or build completely new ones.
+          <div className="services"><img src={Hypothesis}></img><h4 style={{borderColor: "rgb(47,118,151)"}}>HYPOTHESIS</h4><p>Through creative workshops, we enable organizations to identify new hypotheses to grow existing brands or build completely new ones.
             </p></div>
-          <div className="services"><img src={Build}></img><h4 style={{borderColor: "rgb(255,39,100)"}}>BUILD</h4><p>Once we've identified the different hypothesis, we set-up a multi-disciplinary team to build and execute the ideal experiment for your needs.
+          <div className="services"><img src={Build}></img><h4 style={{borderColor: "rgb(255,39,100)"}}>BUILD</h4><p>Once we've identified the different hypotheses, we set-up a multi-disciplinary team to build and execute the ideal experiment for your needs.
 </p></div>
           <div className="services"><img src={Measure}></img><h4 style={{borderColor: "rgb(84,217,202)"}}>MEASURE</h4><p>Throughout the entire experiment, we closely monitor key parameters to determine the concept's viability.
 </p></div>

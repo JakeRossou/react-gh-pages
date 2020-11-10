@@ -23,12 +23,12 @@ class Introduction extends React.Component {
           <div className="titlePageText">
             <h3>ITER</h3>
             <h1><span className="lineThrough">CRE</span>ATIVE CONCEPT AGENCY</h1>
-            <p>Enabling large enterprises, SMEs and start-ups to build and validate their moonshot concepts and branding through an iterative build measure, learn approach. Making their future absolutely marbleous.</p>
+            <p>Enabling large enterprises, SMEs and start-ups to grow their exisitng brands or build completely new ones through an iterative build, measure, learn approach. Making their future absolutely marbleous.</p>
           </div>
         </div>
         <div className='whoWeAre'>
           <div className='textField' id="AboutUs">
-            <p>We are here to grant you a superpower. <br/>A power enabling you to fastforward into the future and experience your finished product and customer reactions, before making any expensive commitments.</p>
+            <p>We are here to grant you a superpower. <br/>The power to identify and develop brand boosting concepts, fastforward into the future and experience customer reactions, before making any expensive commitments.</p>
             <div className="buttonRow">
               <a href="mailto:gilles.rossou@marbleousconcepts.com">
                 <div className='introButton' variant='outline-dark'>

@@ -21,7 +21,7 @@ class Formats extends React.Component {
                 <h1>OUR FORMATS</h1>
             </div>
             <div className="descriptionRow">
-            <p>The following formats can be persued seperately, in combination or in iteration. <br/>Contact us to get a quote for your needs.</p>
+            <p>The following formats can be pursued seperately, in combination or in iteration. <br/>Contact us to get a quote for your needs.</p>
             </div>
             <div className="cardRow">
                 <div className="formatCard redBorder">

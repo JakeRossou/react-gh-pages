@@ -42,7 +42,7 @@ class Navigation extends React.Component {
           <a href='#'>MARBLES</a>
         </li>
         <li className={this.state.active ? "item active" : "item"}>
-          <a href='#'>CONTACT</a>
+          <a href='#AboutUs'>CONTACT</a>
         </li>
         <li className='toggle' onClick={this.toggleNavBar}>
           <a href='#'>
