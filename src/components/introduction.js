@@ -23,7 +23,7 @@ class Introduction extends React.Component {
           <div className="titlePageText">
             <h3>ITER</h3>
             <h1><span className="lineThrough">CRE</span>ATIVE CONCEPT AGENCY</h1>
-            <p>Enabling large enterprises, SMEs and start-ups to grow their exisitng brands or build completely new ones through an iterative build, measure, learn approach. Making their future absolutely marbleous.</p>
+            <p>Avoid bad investments by iteratively validating your moonshot ideas to build or expand your brand. Making your future absolutely Marbleous.</p>
           </div>
         </div>
         <div className='whoWeAre'>
