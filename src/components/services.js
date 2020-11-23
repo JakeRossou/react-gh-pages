@@ -18,9 +18,9 @@ class Services extends React.Component {
       <div className='servicesPage' id='OurApproach'>
         <div className="processTitle"><h1>OUR APPROACH</h1></div>
         <div className="serviceOverview">
-          <div className="services"><img src={Hypothesis}></img><h4 style={{borderColor: "rgb(47,118,151)"}}>MOONSHOTS</h4><p>Through creative workshops, we enable organizations to identify new moonshot ideas to expand existing brands or build completely new ones.
+          <div className="services"><img src={Hypothesis}></img><h4 style={{borderColor: "rgb(47,118,151)"}}>MOONSHOTS</h4><p>Through creative workshops, we enable organizations to identify new opportunities to expand existing brands or build completely new ones.
             </p></div>
-          <div className="services"><img src={Build}></img><h4 style={{borderColor: "rgb(255,39,100)"}}>BUILD</h4><p>Once we've identified the different moonshot ideas, we set-up a multi-disciplinary team to build the ideal concept to validate some critical assumptions with a well-balanced focus group.
+          <div className="services"><img src={Build}></img><h4 style={{borderColor: "rgb(255,39,100)"}}>BUILD</h4><p>Once we've identified the different opportunities and their corresponding critical assumptions, we build the ideal user experience to get them validated in the market.
 </p></div>
           <div className="services"><img src={Measure}></img><h4 style={{borderColor: "rgb(84,217,202)"}}>MEASURE</h4><p>Throughout the entire validation cycle, we closely monitor key parameters to determine the concept's desirability and viability.
 </p></div>

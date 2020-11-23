@@ -26,23 +26,23 @@ class Formats extends React.Component {
             <div className="cardRow">
                 <div className="formatCard redBorder">
                     <img className="formatIcon" src={workshop}></img>
-                    <div className="formatGoal"><p>We help you <b>identify growth assumptions</b> and design the ideal experiment to empirically test these assumptions</p></div>
+                    <div className="formatGoal"><p>We help you <b>identify growth assumptions</b> and design the ideal approach to empirically test these assumptions</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faCalendar} />&nbsp; 1-2 days</p></div>
-                    <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Experiment Set-Up</p></div>
+                    <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Validation Set-Up</p></div>
                     <div className="learnMoreButtonRed">LEARN MORE</div>
                 </div>
                 <div className="formatCard greenBorder">
                 <img className="formatIcon" src={iteration}></img>
-                    <div className="formatGoal"><p>We <b>co-develop the envisioned target concept and stress-test your assumptions</b> at breakneck speed</p></div>
+                    <div className="formatGoal"><p>We <b>co-develop the envisioned target concept and stress-test your moonshot ideas</b> at breakneck speed</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faCalendar} />&nbsp; 3-6 Weeks</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Validated Concept</p></div>
                     <div className="learnMoreButtonGreen">LEARN MORE</div>
                 </div>
                 <div className="formatCard blueBorder">
                 <img className="formatIcon" src={launch}></img>
-                    <div className="formatGoal"><p>We guide your internal team and key partners throughout the entire <b>concept launch</b>, making your future absolutely marbleous</p></div>
+                    <div className="formatGoal"><p>We guide your internal team and key partners throughout the entire <b>concept launch</b>, making your future absolutely Marbleous</p></div>
                     <div className="formatPointers"><p><FontAwesomeIcon icon={faCalendar} />&nbsp; 3-6 Months</p></div>
-                    <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Launched Product</p></div>
+                    <div className="formatPointers"><p><FontAwesomeIcon icon={faBullseye} />&nbsp; Launched Product / Service</p></div>
                     <div className="learnMoreButtonBlue">LEARN MORE</div>
                 </div>
             </div>

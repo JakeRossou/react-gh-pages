@@ -121,3 +121,10 @@ span.lineThrough {
     border-color: rgb(84, 217, 202);
   }
 }
+
+/* Large Screen -------------------------------------------------------------------------------*/
+@media all and (min-width: 1500px) {
+  .titlePage {
+    min-height: 900px;
+  }
+}
