@@ -1,10 +1,10 @@
 import React,{useEffect} from "react";
-import logo from "./logo.svg";
+import {BrowserRouter, Route, Routes, /*NavLink, useParams*/} from "react-router-dom";
 import "./App.css";
-import Navigation from "./components/navigation.js";
-import Introduction from "./components/introduction.js";
-import Services from "./components/services.js";
-import Formats from "./components/formats.js";
+import Homepage from "./components/Homepage.js";
+import MonthlyScent from "./components/MonthlyScent.js";
+import PrimeNumbers from "./components/PrimeNumbers.js";
+import Footer from "./components/Footer.js";
 import ReactGA from 'react-ga';
 
 function App() {
@@ -14,14 +14,18 @@ function App() {
   })
   return (
     <div className='App'>
-      <nav id='navigationBar'>
-        <Navigation />
-      </nav>
       <header className='App-header'>
-        <Introduction />
-        <Services />
-        <Formats />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Homepage />} />
+            <Route path="/monthlyscent" element={<MonthlyScent />} />
+            <Route path="/primenumbers/:max" element={<PrimeNumbers />} />
+          </Routes>
+        </BrowserRouter>
       </header>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

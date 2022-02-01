@@ -1,0 +1,182 @@
+.MonthlyScent-case a {
+  color: black;
+}
+
+.MonthlyScent-case .backButton img {
+  width: 18px;
+}
+
+.MonthlyScent-case p {
+  font-size: 18px;
+}
+
+.backButton {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.MonthlyScent-case-title h3 {
+  color: rgb(16, 7, 99);
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 80px;
+}
+
+.MonthlyScent-case-title h1 {
+  font-size: 50px;
+  font-weight: 600;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 20vh;
+}
+
+.MonthlyScent-case div.DeviderImage {
+  width: 100%;
+  height: 70vh;
+  background: url("../assets/MonthlyScent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.MonthlyScent-case-introduction {
+  width: 100%;
+  background-color: rgb(255, 235, 225);
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.MonthlyScent-case-introduction h1 {
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.MonthlyScent-case-introduction p {
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.MonthlyScent-case-details {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.MonthlyScent-case-details-title {
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 10vh;
+}
+.MonthlyScent-case-details-title h2 {
+  font-size: 36px;
+}
+.MonthlyScent-case-details-text {
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+.MonthlyScent-case-details-text a {
+  text-decoration: underline;
+}
+.MonthlyScent-case-details-text img {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.MonthlyScent-case-details-text ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Desktop -------------------------------------------------------------------------------*/
+@media all and (min-width: 900px) {
+  .MonthlyScent-case a {
+    color: black;
+  }
+
+  .MonthlyScent-case .backButton img {
+    width: 18px;
+  }
+
+  .MonthlyScent-case p {
+    font-size: 18px;
+  }
+
+  .backButton {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .MonthlyScent-case-title {
+    padding: 20px 38% 20px 12%;
+  }
+
+  .MonthlyScent-case-title h3 {
+    color: rgb(16, 7, 99);
+  }
+
+  .MonthlyScent-case-title h1 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 20vh;
+  }
+
+  .MonthlyScent-case div.DeviderImage {
+    width: 100%;
+    height: 70vh;
+    background: url("../assets/MonthlyScent.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .MonthlyScent-case-introduction {
+    width: 100%;
+    background-color: rgb(255, 235, 225);
+    margin-top: 0px;
+    padding: 20vh 46% 30vh 12%;
+  }
+  .MonthlyScent-case-introduction h1 {
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+
+  .MonthlyScent-case-details {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20vh;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  .MonthlyScent-case-details-title {
+    width: 49%;
+    padding-top: 10vh;
+    margin: 0px;
+    margin-top: 0px;
+  }
+  .MonthlyScent-case-details-title h2 {
+    font-size: 36px;
+  }
+  .MonthlyScent-case-details-text {
+    width: 50%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin: 0px;
+  }
+  .MonthlyScent-case-details-text a {
+    text-decoration: underline;
+  }
+  .MonthlyScent-case-details-text img {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .MonthlyScent-case-details-text ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

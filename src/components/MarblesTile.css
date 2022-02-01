@@ -1,0 +1,111 @@
+.MarblesTile {
+  width: 25vw;
+  height: 25vw;
+  margin-bottom: 2.5vw;
+}
+
+#MonthlyScent {
+  background: url("../assets/MonthlyScent2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#SongRqst {
+  background: url("../assets/SongRqst.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#StandZero {
+  background: url("../assets/StandZero.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#KikoFood {
+  background: url("../assets/KikoFood.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#RosieWines {
+  background: url("../assets/RosieDrinks.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#BioMe {
+  background: url("../assets/Placeholder2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.MarblesTile-overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.MarblesTile-overlay-content {
+  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
+  bottom: 10%;
+  width: 80%;
+  height: 30%;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.MarblesTile-overlay-content.hoverActive {
+  position: absolute;
+  margin-left: 5%;
+  margin-right: 5%;
+  bottom: 10%;
+  width: 90%;
+  height: 40%;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.MarblesTile-overlay-content h1 {
+  width: 80%;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.MarblesTile-overlay-content p {
+  width: 80%;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.MarblesTile-overlay-content p.casehover {
+  color: grey;
+}
+
+.MarblesTile-overlay-content p.case {
+  color: grey;
+  display: none;
+}
+
+/* Mobile -------------------------------------------------------------------------------*/
+@media all and (max-width: 900px) {
+  .MarblesTile {
+    width: 70vw;
+    height: 70vw;
+    margin-bottom: 40px;
+  }
+  .MarblesTile-overlay {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+}

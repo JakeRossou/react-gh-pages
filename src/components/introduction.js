@@ -1,5 +1,8 @@
 import React from "react";
 import "./introduction.css";
+import line from "../assets/line.png";
+import ContactForm from "./ContactForm"
+
 
 class Introduction extends React.Component {
   constructor(props) {
@@ -18,28 +21,22 @@ class Introduction extends React.Component {
 
   render() {
     return (
-      <div className='introductionPage'>
-        <div className='titlePage'>
-          <div className="titlePageText">
-            <h3>ITER</h3>
-            <h1><span className="lineThrough">CRE</span>ATIVE CONCEPT AGENCY</h1>
-            <p>Avoid bad investments by iteratively validating your moonshot ideas to build or expand your brand. Making your future absolutely Marbleous.</p>
-          </div>
+      <div className='Introduction' id="homepage">
+        <div className='Introduction-background'>
         </div>
-        <div className='whoWeAre'>
-          <div className='textField' id="AboutUs">
-            <p>We are here to grant you a superpower. <br/>The power to identify and develop brand boosting concepts, fastforward into the future and experience customer reactions, before making any expensive commitments.</p>
-            <div className="buttonRow">
-              <a href="mailto:gilles.rossou@marbleousconcepts.com">
-                <div className='introButton' variant='outline-dark'>
-            CONTACT US</div>
-              </a> 
-            </div>
+        <div className="Introduction-overlay">
+          <div className="Introduction-overlay-line">
+            <img src={line} alt="neon-line"/>
+          </div>
+          <div class="Introduction-overlay-content">
+            <h1>Validated <span className="prototypes"><span className='Introduction-overlay-content-correction'><p>validated</p><p>V</p></ span>concepts</span><br/>in just 6 weeks</h1>
+            <p>Planning to expand your business with a brand boosting concept? Through rapid prototyping, we help you validate your ideas' desirablity, feasibility and viability in just 6 weeks. So the next time you pitch your ideas and someone says you've lost your marbles, we've got your back ;)</p>
+            <ContactForm />
           </div>
         </div>
       </div>
     );
-  }
+  };
 }
 
 export default Introduction;

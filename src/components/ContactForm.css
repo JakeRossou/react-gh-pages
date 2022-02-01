@@ -1,0 +1,49 @@
+.ContactForm-form.hidden {
+  display: none;
+}
+
+.ContactForm-contactButton.hidden {
+  display: none;
+}
+
+.ContactForm-form {
+  margin-top: 30px;
+}
+
+.ContactForm-form input {
+  color: black;
+}
+
+.ContactForm-form p {
+  font-size: 12px;
+  margin-bottom: -8px;
+}
+
+.ContactForm-form-submitButton,
+.ContactForm-contactButton {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 8px 20px;
+  margin-top: 20px;
+  border: white 1px solid;
+  box-shadow: turquoise 0px 0px 10px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.ContactForm-form-submitButton:hover,
+.ContactForm-contactButton:hover {
+  background-color: rgb(84, 217, 202);
+  padding: 8px 20px;
+  margin-top: 20px;
+  border: rgb(84, 217, 202) 1px solid;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.ContactForm-form input {
+  border: white 1px solid;
+  box-shadow: turquoise 0px 0px 10px;
+  margin-right: 10px;
+  padding: 8px 20px;
+  width: 50%;
+}

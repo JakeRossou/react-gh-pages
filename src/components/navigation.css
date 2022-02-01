@@ -1,51 +1,57 @@
 /* Navigation menu - Basic Styling ------------------------------------------*/
-* {
+.Navigation {
+  position: absolute;
+  top: 10px;
+  width: 100%;
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  height: 8vh;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-ul {
+.Navigation ul {
   list-style-type: none;
 }
 
-a {
+.Navigation a {
   color: black;
   text-decoration: none;
 }
-a:hover {
+.Navigation a:hover {
   font-weight: 600;
 }
 
-.menu {
+.Navigation .menu {
   display: flex;
 }
 
-.menu.active {
+.Navigation .menu.active {
   background-color: rgb(26, 16, 46);
 }
 
-.menu .logo {
+.Navigation menu .logo {
   display: flex;
 }
 
-img.brandLogo {
+.Navigation img.brandLogo {
   width: 90%;
   max-width: 150px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
 }
 
-.menu li {
+.Navigation .menu li {
   font-size: 12px;
   padding: 15px 5px;
   white-space: nowrap;
 }
 
-.logo a,
-.toggle a {
+.Navigation .logo a,
+.Navigation .toggle a {
   font-size: 20px;
 }
 
-.item a {
+.Navigation .item a {
   color: white;
 }
 
@@ -53,13 +59,21 @@ img.brandLogo {
 
 /* Navigation Menu*/
 
-.menu {
+.Navigation .menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
 }
 
-.toggle {
+.Navigation img.brandLogo {
+  width: 90%;
+  max-width: 150px;
+  position: absolute;
+  left: 20px;
+  top: 22px;
+}
+
+.Navigation .toggle {
   order: 1;
   text-align: right;
   position: absolute;
@@ -67,26 +81,26 @@ img.brandLogo {
   top: 10px;
 }
 
-.toggleBars {
+.Navigation .toggleBars {
   color: white;
 }
 
-.item.button {
+.Navigation .item.button {
   order: 2;
 }
-.menu .item {
+.Navigation .menu .item {
   width: 100%;
   text-align: center;
   order: 3;
   display: none;
 }
 
-.menu .item.active {
+.Navigation .menu .item.active {
   display: block;
   background: rgb(26, 16, 46);
 }
 
-.item.active a {
+.Navigation .item.active a {
   color: white;
 }
 
@@ -94,17 +108,17 @@ img.brandLogo {
 @media all and (min-width: 600px) {
   /*Navigation Menu*/
 
-  .logo {
+  .Navigation .logo {
     flex: 1;
   }
 
-  .menu {
+  .Navigation .menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
   }
 
-  .item.button {
+  .Navigation .item.button {
     width: auto;
     order: 1;
     display: block;
@@ -115,39 +129,48 @@ img.brandLogo {
 @media all and (min-width: 800px) {
   /* Navigation Menu */
 
-  .menu .item {
+  .Navigation img.brandLogo {
+    width: 90%;
+    max-width: 150px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+  }
+
+  .Navigation .menu .item {
     display: block;
     width: auto;
   }
 
-  .toggle {
+  .Navigation .toggle {
     display: none;
   }
 
-  .logo {
+  .Navigation .logo {
     order: 0;
   }
-  .item {
+  .Navigation .item {
     order: 1;
   }
 
-  .item a {
+  .Navigation .item a {
     font-weight: 450;
   }
 
-  .item a:hover {
+  .Navigation .item a:hover {
     color: white;
     font-weight: 700;
     text-decoration: none;
   }
 
-  .menu li {
+  .Navigation .menu li {
     padding: 0px 20px;
     font-size: 14px;
+    margin-top: 20px;
   }
 
-  .menu {
-    padding: 15px 50px;
+  .Navigation .menu {
+    padding: 0px 50px;
     align-items: center;
   }
 }

@@ -1,0 +1,13 @@
+.PrimeNumbers-numbers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.PrimeNumbers-numbers span {
+  background-color: darkblue;
+  color: white;
+  padding: 0px 10px;
+  margin: 5px;
+}

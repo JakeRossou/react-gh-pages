@@ -51,7 +51,7 @@ div.cardRow {
 div.formatCard {
   width: 30%;
   text-align: center;
-  background: url(../background.png);
+  background: url(../assets/background.png);
 }
 
 .redBorder {

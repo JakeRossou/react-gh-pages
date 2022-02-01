@@ -1,6 +1,6 @@
 import React from "react";
 import "./navigation.css";
-import logo from "../LogoMarbleousDarkBG.png";
+import logo from "../assets/LogoMarbleousDarkBG.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -23,33 +23,35 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <ul className={this.state.active ? "menu active" : "menu"}>
-        <li className='logo'>
-          <a href='#'>
-            <img className='brandLogo' src={logo}></img>
-          </a>
-        </li>
-        <li className={this.state.active ? "item active" : "item"}>
-          <a href='#AboutUs'>ABOUT US</a>
-        </li>
-        <li className={this.state.active ? "item active" : "item"}>
-          <a href='#OurApproach'>APPROACH</a>
-        </li>
-        <li className={this.state.active ? "item active" : "item"}>
-          <a href='#OurFormats'>FORMATS</a>
-        </li>
-        <li className={this.state.active ? "item active" : "item"}>
-          <a href='#'>MARBLES</a>
-        </li>
-        <li className={this.state.active ? "item active" : "item"}>
-          <a href='#AboutUs'>CONTACT</a>
-        </li>
-        <li className='toggle' onClick={this.toggleNavBar}>
-          <a href='#'>
-            <FontAwesomeIcon className='toggleBars' icon={faBars} />
-          </a>
-        </li>
-      </ul>
+      <div class="Navigation">
+        <ul className={this.state.active ? "menu active" : "menu"}>
+          <li className='logo'>
+            <a href='#homepage'>
+              <img className='brandLogo' src={logo} alt="brandLogo"></img>
+            </a>
+          </li>
+          <li className={this.state.active ? "item active" : "item"}>
+            <a href='#AboutUs'>ABOUT US</a>
+          </li>
+          <li className={this.state.active ? "item active" : "item"}>
+            <a href='#OurApproach'>APPROACH</a>
+          </li>
+          <li className={this.state.active ? "item active" : "item"}>
+            <a href='#OurActivities'>ACTIVITIES</a>
+          </li>
+          <li className={this.state.active ? "item active" : "item"}>
+            <a href='#OurMarbles'>MARBLES</a>
+          </li>
+          <li className={this.state.active ? "item active" : "item"}>
+            <a href='#AboutUs'>CONTACT</a>
+          </li>
+          <li className='toggle' onClick={this.toggleNavBar}>
+            <div>
+              <FontAwesomeIcon className='toggleBars' icon={faBars} />
+            </div>
+          </li>
+        </ul>
+      </div>
     );
   }
 }

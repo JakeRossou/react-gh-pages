@@ -1,0 +1,83 @@
+.Promises {
+  background: url("../assets/background2.png");
+}
+.Promises-title {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: 60px;
+  padding-top: 120px;
+}
+
+.Promises-title h1 {
+  color: white;
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Promises-title p {
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  width: 100%;
+  text-align: center;
+}
+
+.Promises-overview {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  padding: 10% 10%;
+}
+
+.Promises-overview-card {
+  width: 20%;
+}
+
+.Promises-overview-card img {
+  width: 100%;
+}
+
+.Promises-overview-card h4 {
+  border: solid 2.5px;
+  margin: 15px 15px;
+  padding: 7px;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.Promises-overview-card p {
+  font-size: 11px;
+  margin: 15px 15px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.Promises-footer {
+  position: relative;
+  bottom: 15px;
+  font-size: 10px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+@media all and (max-width: 1000px) {
+  .Promises {
+    background: url("../assets/backgroundLong.png");
+  }
+  .Promises-overview {
+    display: block;
+  }
+  .Promises-overview-card {
+    width: 100%;
+    margin: 5% 0%;
+  }
+}

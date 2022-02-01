@@ -1,0 +1,42 @@
+.Whoweare {
+  position: relative;
+}
+
+.Whoweare-textbox {
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+  top: -100px;
+  margin: 0px 30px;
+}
+
+.Whoweare-textbox p {
+  font-size: 20px;
+  line-height: 1.9;
+  letter-spacing: 3px;
+}
+
+.Whoweare-button {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 8px 20px;
+  margin-top: 20px;
+  border: black 1px solid;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.Whoweare-button:hover {
+  background-color: rgba(255, 42, 127, 1);
+  padding: 8px 20px;
+  margin-top: 20px;
+  border: rgba(255, 42, 127, 1) 1px solid;
+  color: white;
+  letter-spacing: 2px;
+}
+
+/* Desktop -------------------------------------------------------------------------------*/
+@media all and (min-width: 1000px) {
+  .Whoweare-textbox {
+    margin: 10% 22%;
+  }
+}
