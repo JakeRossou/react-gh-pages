@@ -1,0 +1,23 @@
+{
+  "name": "marbleous_2022_reactwebpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\" ",
+    "start": "concurrently \"cd server && npm start\" \"cd client && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeRossou/react-gh-pages.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeRossou/react-gh-pages/issues"
+  },
+  "homepage": "https://github.com/JakeRossou/react-gh-pages#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
