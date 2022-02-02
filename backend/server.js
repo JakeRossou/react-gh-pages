@@ -8,6 +8,9 @@ if (process.env.NODE_ENV !== "Production"){
 
 /* needed to connect client and backend when deploying to heroku" */
 const path = require('path');
+const cors = require('cors');
+require('./database');
+
 
 /* setup express -----------------------*/
 const express = require('express');
@@ -17,8 +20,12 @@ const session = require('express-session');
 const axios = require('axios');
 const bodyParser = require('body-parser')
 
+//some middleware
+app.use(bodyParser.json());
+app.use(cors());
+
 // Have Node serve the files for our built React app
-app.use(express.static(path.resolve(__dirname, '../client/build')));
+app.use(express.static(path.resolve(__dirname, '../build')));
 
 /* require our mongoose model(s) that we have created in the models folder */
 const Lead = require('./models/lead.js'); 
