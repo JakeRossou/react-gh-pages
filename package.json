@@ -2,7 +2,7 @@
   "name": "react-nod-app",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "cd client && npm start",
     "build": "cd client && npm install && npm run build"
