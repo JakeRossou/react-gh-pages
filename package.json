@@ -35,7 +35,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "concurrently \"react-scripts --openssl-legacy-provider start\" \"cd backend && nodemon server.js\"",
+    "start": "cd backend && nodemon server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
